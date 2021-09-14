@@ -15,10 +15,12 @@ public class App
     {
         System.out.println( "What is your name? " );
         Scanner scanner = new Scanner(System.in);
+        String end;
 
         String userInput = scanner.nextLine();
 
-        System.out.println( "Hello, " + userInput + ", nice to meet you!" );
+        end = "Hello, " + userInput + ", nice to meet you!";
+        System.out.println( end );
 
         scanner.close();
     }
